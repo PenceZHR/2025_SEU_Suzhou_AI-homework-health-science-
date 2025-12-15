@@ -1,0 +1,38 @@
+{
+  "ResNet18": {
+    "test_accuracy": 93.1098696461825,
+    "test_f1": 89.72974432088483,
+    "final_train_acc": 99.72041006523766,
+    "final_val_acc": 91.67184586699814,
+    "parameters": {
+      "total": 11172292,
+      "trainable": 11172292
+    },
+    "memory_mb": 42.65568542480469,
+    "train_time_min": 254.97405126889547
+  },
+  "EfficientNet-B0": {
+    "test_accuracy": 92.05462445685909,
+    "test_f1": 88.39639830148505,
+    "final_train_acc": 98.48222606843296,
+    "final_val_acc": 92.66625233064015,
+    "parameters": {
+      "total": 4012096,
+      "trainable": 4012096
+    },
+    "memory_mb": 15.465583801269531,
+    "train_time_min": 220.85860112905502
+  },
+  "DenseNet121": {
+    "test_accuracy": 90.9373060211049,
+    "test_f1": 86.27643465763268,
+    "final_train_acc": 99.8801757422447,
+    "final_val_acc": 92.5419515226849,
+    "parameters": {
+      "total": 6951684,
+      "trainable": 6951684
+    },
+    "memory_mb": 26.838584899902344,
+    "train_time_min": 516.6978021065394
+  }
+}
