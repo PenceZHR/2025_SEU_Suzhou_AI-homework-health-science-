@@ -1,0 +1,68 @@
+{
+  "dataset_summary": {
+    "total_classes": 4,
+    "total_images": 10731,
+    "images_per_class": {
+      "0": 2530,
+      "1": 1345,
+      "2": 3252,
+      "3": 3604
+    }
+  },
+  "image_statistics": {
+    "dimensions": {
+      "width": {
+        "min": 232,
+        "max": 1882,
+        "mean": 711.74,
+        "std": 504.4880597199502
+      },
+      "height": {
+        "min": 232,
+        "max": 1632,
+        "mean": 523.0,
+        "std": 329.16612826960187
+      },
+      "unique_sizes": 196
+    },
+    "channels": {
+      "distribution": {
+        "1": 185,
+        "3": 215
+      },
+      "most_common": 3
+    },
+    "intensity_by_class": {
+      "0": {
+        "mean": 122.19212420313129,
+        "std": 52.89943546130313,
+        "min": 0,
+        "max": 255
+      },
+      "1": {
+        "mean": 130.22995733808665,
+        "std": 60.544284802123755,
+        "min": 0,
+        "max": 255
+      },
+      "2": {
+        "mean": 140.14306882515814,
+        "std": 52.2555297972903,
+        "min": 0,
+        "max": 255
+      },
+      "3": {
+        "mean": 124.25100252675385,
+        "std": 61.249782706821506,
+        "min": 0,
+        "max": 255
+      }
+    }
+  },
+  "class_names": {
+    "0": "Class 0 (Normal/Healthy)",
+    "1": "Class 1 (Pathology Type 1)",
+    "2": "Class 2 (Pathology Type 2)",
+    "3": "Class 3 (Pathology Type 3)"
+  }
+}
